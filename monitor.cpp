@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
   }
   else
   {
-    cerr << CLIENT << " can only accept one parameter : TXLIST";
+    cerr << CLIENT << " can only accept one parameter : TXLIST" << endl;
     return -1;
   }
 }
